@@ -5,7 +5,7 @@ import "github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 func Provider() *schema.Provider {
 	return &schema.Provider{
 		ResourcesMap: map[string]*schema.Resource{
-			"uuid_generator": UUIDGenerator(),
+			"example_server": UUIDGenerator(),
 		},
 	}
 }
